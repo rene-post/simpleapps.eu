@@ -1,0 +1,49 @@
+# simpleapps.eu — redirect rules
+# See: redirects-mail-forwards-vanaf-simpleapps.eu.eml
+#
+# The domain root serves the new SimpleApps website.
+# Only legacy /simplemind/ paths and specific file paths are redirected.
+
+Options -Indexes
+RewriteEngine On
+
+# ---------------------------------------------------------------------------
+# 1. File-specific redirects → modelmakertools.com  (301 permanent)
+#    Listed BEFORE the catch-all /simplemind/ rule below.
+# ---------------------------------------------------------------------------
+
+# App data – shared
+RewriteRule ^simplemind/appdata/simplemind_links\.xml$    https://modelmakertools.com/simplemind/appdata/simplemind_links.xml    [R=301,L]
+
+# App data – Mac
+RewriteRule ^simplemind/appdata/smpmac1-blacklist\.xml$   https://modelmakertools.com/simplemind/appdata/smpmac1-blacklist.xml   [R=301,L]
+RewriteRule ^simplemind/appdata/smpmac1-blacklist2\.txt$  https://modelmakertools.com/simplemind/appdata/smpmac1-blacklist2.txt  [R=301,L]
+RewriteRule ^simplemind/appdata/smpmac1-versions\.xml$    https://modelmakertools.com/simplemind/appdata/smpmac1-versions.xml    [R=301,L]
+
+# App data – Windows
+RewriteRule ^simplemind/appdata/smpwin1-blacklist\.xml$   https://modelmakertools.com/simplemind/appdata/smpwin1-blacklist.xml   [R=301,L]
+RewriteRule ^simplemind/appdata/smpwin1-blacklist2\.txt$  https://modelmakertools.com/simplemind/appdata/smpwin1-blacklist2.txt  [R=301,L]
+RewriteRule ^simplemind/appdata/smpwin1-versions\.xml$    https://modelmakertools.com/simplemind/appdata/smpwin1-versions.xml    [R=301,L]
+
+# Downloads – old full-edition paths
+RewriteRule ^download/full-edition/simplemind-pro-windows/?$  https://modelmakertools.com/download/simplemind-pro-windows/  [R=301,L]
+RewriteRule ^download/full-edition/simplemind-pro-mac/?$      https://modelmakertools.com/download/simplemind-pro-mac/      [R=301,L]
+
+# ---------------------------------------------------------------------------
+# 2. Catch-all: everything under /simplemind/ → https://simplemind.eu
+#    Covers the old site root used in all legacy app and web links, e.g.:
+#      http://www.simpleapps.eu/simplemind/touch/quickhelp
+#      http://www.simpleapps.eu/simplemind/desktop/osx/faq#local-mindmaps
+# ---------------------------------------------------------------------------
+
+RewriteRule ^simplemind(/.*)?$  https://simplemind.eu  [R=301,L]
+
+# ---------------------------------------------------------------------------
+# 3. New SimpleApps website — front controller
+#    Route all requests that don't map to a real file or directory
+#    through index.php so the site can handle its own routing.
+# ---------------------------------------------------------------------------
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
