@@ -17,10 +17,10 @@ Source specification for the legacy redirects:
 simpleapps.eu/
 ├── _private/   # Not web-accessible (blocked by _private/.htaccess)
 │   ├── export_forwards_simpleapps_eu_03_31_2026_12_36_AM.csv
-│   └── redirects-mail-forwards-vanaf-simpleapps.eu.eml
+│   ├── redirects-mail-forwards-vanaf-simpleapps.eu.eml
+│   └── README.md   # This file
 ├── .htaccess   # Apache redirect rules for legacy paths (mod_rewrite)
-├── index.php   # New SimpleApps homepage + PHP fallback for legacy redirects
-└── README.md   # This file
+└── index.php   # New SimpleApps homepage + PHP fallback for legacy redirects
 ```
 
 ---
