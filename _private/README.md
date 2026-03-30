@@ -66,20 +66,20 @@ and web links) redirects to `https://simplemind.eu`. Examples:
 
 | Address | Created |
 |---|---|
-| `android@simpleapps.eu` | 2021-10-05 |
-| `gerrit@simpleapps.eu` | 2021-10-05 |
+| **`android@simpleapps.eu`** | 2021-10-05 |
+| **`gerrit@simpleapps.eu`** | 2021-10-05 |
 | `info@simpleapps.eu` | 2022-04-07 |
-| `linda@simpleapps.eu` | 2021-10-05 |
+| **`linda@simpleapps.eu`** | 2021-10-05 |
 | `linda.meddeler@simpleapps.eu` | 2021-10-05 |
 | `nederland@simpleapps.eu` | 2021-11-01 |
 | `postmaster@simpleapps.eu` | 2021-10-05 |
 | `root@simpleapps.eu` | 2021-10-05 |
 | `simpleapps@simpleapps.eu` | 2021-10-05 |
-| `simplemind-mac@simpleapps.eu` | 2021-10-05 |
-| `simplemind-touch@simpleapps.eu` | 2021-10-05 |
-| `simplemind-windows@simpleapps.eu` | 2021-10-05 |
+| **`simplemind-mac@simpleapps.eu`** | 2021-10-05 |
+| **`simplemind-touch@simpleapps.eu`** | 2021-10-05 |
+| **`simplemind-windows@simpleapps.eu`** | 2021-10-05 |
 | `simplemindapp@simpleapps.eu` | 2021-10-05 |
-| `support@simpleapps.eu` | 2021-10-05 |
+| **`support@simpleapps.eu`** | 2021-10-05 |
 | `webmaster@simpleapps.eu` | 2021-10-05 |
 
 ### → `reposting@gmail.com`
@@ -91,7 +91,7 @@ and web links) redirects to `https://simplemind.eu`. Examples:
 | `naturalmindapp@simpleapps.eu` | 2021-09-23 |
 | `reactivego@simpleapps.eu` | 2021-09-23 |
 | `rene@simpleapps.eu` | 2021-09-23 |
-| `simplemind@simpleapps.eu` | 2025-04-17 |
+| **`simplemind@simpleapps.eu`** | 2025-04-17 |
 | `smartcard@simpleapps.eu` | 2021-09-23 |
 
 ### → `netjet@xs4all.nl`
