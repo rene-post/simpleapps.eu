@@ -1,0 +1,101 @@
+Return-Path: <gerrit@modelmakertools.com>
+X-Original-To: rene@xpt.nl
+Delivered-To: rene@xpt.nl
+Message-ID: <86ed6c4c-1a7d-4844-9182-9ad82d8aec15@modelmakertools.com>
+Date: Mon, 16 Mar 2026 11:38:28 +0100
+MIME-Version: 1.0
+Content-Language: en-US
+To: =?UTF-8?Q?Ren=C3=A9_Post?= <rene@xpt.nl>
+From: Gerrit Beuze <gerrit@modelmakertools.com>
+Subject: Redirects en mail forwards vanaf simpleapps.eu
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+Dag René,
+
+Afgelopen donderdag hebben we elkaar telefonisch gesproken over het
+domein simpleapps.eu. We hebben met elkaar afgesproken dat je redirects
+en mail forwards op dat domein instelt. Hieronder staat de lijst met
+web- en file-links en mail adressen vanaf simpleapps.eu die doorgestuurd
+moeten worden,
+
+Gerrit Beuze
+ModelMaker Tools
+
+
+
+Web links
+
+De oude Simpleapps site gebruikte
+http://www.simpleapps.eu/simplemind/
+als root voor alle pagina's
+
+Bijvoorbeeld:
+http://www.simpleapps.eu/simplemind/touch/quickhelp
+http://www.simpleapps.eu/simplemind/desktop/osx/faq#local-mindmaps
+
+Alles in deze root wordt doorgestuurd naar
+https://simplemind.eu
+
+
+Email
+Alle historisch gebruikte simpleapps.eu email adressen worden
+doorgestuurd naar support@simplemind.eu
+
+simplemind-touch@simpleapps.eu
+simplemind-windows@simpleapps.eu
+simplemind-mac@simpleapps.eu
+android@simpleapps.eu
+linda@simpleapps.eu
+gerrit@simpleapps.eu
+simplemind@simpleapps.eu
+support@simpleapps.eu
+
+Note:
+In de iOS AppStore wordt "simplemind@simpleapps.eu" gebruikt als
+developer contact information
+ik weet niet of dit verder ooit gebruikt is.
+
+Op support@simpleapps.eu komt nog circa 2 keer per maand een mail binnen
+
+Vanaf versie 2.9.0 gebruiken de apps de respectievelijke @simplemind.eu
+email adressen
+
+
+
+File redirects
+
+Hieronder een lijst van files op simpleapps.eu die ge-redirect moeten
+worden naar modelmakertools.com
+Een apart dl.simplemind.eu domein is niet nodig.
+
+https://simpleapps.eu/simplemind/appdata/simplemind_links.xml
+https://modelmakertools.com/simplemind/appdata/simplemind_links.xml
+
+
+https://simpleapps.eu/simplemind/appdata/smpmac1-blacklist.xml
+https://modelmakertools.com/simplemind/appdata/smpmac1-blacklist.xml
+
+https://simpleapps.eu/simplemind/appdata/smpmac1-blacklist2.txt
+https://modelmakertools.com/simplemind/appdata/smpmac1-blacklist2.txt
+
+https://simpleapps.eu/simplemind/appdata/smpmac1-versions.xml
+https://modelmakertools.com/simplemind/appdata/smpmac1-versions.xml
+
+
+https://simpleapps.eu/simplemind/appdata/smpwin1-blacklist.xml
+https://modelmakertools.com/simplemind/appdata/smpwin1-blacklist.xml
+
+https://simpleapps.eu/simplemind/appdata/smpwin1-blacklist2.txt
+https://modelmakertools.com/simplemind/appdata/smpwin1-blacklist2.txt
+
+https://simpleapps.eu/simplemind/appdata/smpwin1-versions.xml
+https://modelmakertools.com/simplemind/appdata/smpwin1-versions.xml
+
+
+https://simpleapps.eu/download/full-edition/simplemind-pro-windows/
+https://modelmakertools.com/download/simplemind-pro-windows/
+
+https://simpleapps.eu/download/full-edition/simplemind-pro-mac/
+https://modelmakertools.com/download/simplemind-pro-mac/

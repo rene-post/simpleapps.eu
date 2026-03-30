@@ -1,0 +1,12 @@
+# Deny all web access to this directory.
+# Files here are for repository / documentation purposes only.
+
+<IfModule mod_authz_core.c>
+    # Apache 2.4+
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    # Apache 2.2
+    Order deny,allow
+    Deny from all
+</IfModule>

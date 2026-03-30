@@ -1,5 +1,5 @@
 # simpleapps.eu — redirect rules
-# See: redirects-mail-forwards-vanaf-simpleapps.eu.eml
+# See: _private/redirects-mail-forwards-vanaf-simpleapps.eu.eml
 #
 # The domain root serves the new SimpleApps website.
 # Only legacy /simplemind/ paths and specific file paths are redirected.
